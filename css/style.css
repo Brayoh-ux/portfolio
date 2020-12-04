@@ -59,7 +59,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    box-shadow: grey;
+    border-bottom: 3px solid black;
     
     
 }
