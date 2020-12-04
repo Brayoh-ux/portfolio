@@ -114,3 +114,25 @@ header ul li a{
 img{
     max-width: 100%;
 }
+.work{
+    background: rgb(44, 2, 2);
+    color: blanchedalmond;
+}
+.work h2{
+    color: blanchedalmond;
+    font-size: 30px;
+} 
+.serviceBx p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.solo{
+    float: left;
+    font-family: fantasy;
+}
+.solo h3{
+    float: left;
+}
+.solo ul li{
+    float: left;
+}
