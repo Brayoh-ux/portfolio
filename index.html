@@ -13,9 +13,9 @@
         <div class="toggle"></div>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Work</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#work">Work</a></li>
         </li>
         </ul>
     </header>
@@ -27,7 +27,7 @@
         </div>
     </section>
     <!-----about-->
-    <section class="about">
+    <section class="about" id="about">
         <div class="heading">
             <h2>About me</h2>
         </div>
@@ -43,22 +43,17 @@
             </div>
         </div>
     </section>
-    <!--------------->
-    <section class="work">
+    <!--------work------->
+    <section class="work" id="work">
         <div class="heading">
             <h2>My Work</h2> <br> 
             <p>Below are someof my the designs I have done so far in Moronga.</p><br>
         </div>
         <div class="content">
             <div class="serviceBx">
-                <img src="/images/Job Employment Opportunities.png" width="50%" ><br>
+                <img src="/images/Job Employment Opportunities.png" width="50%" >
                 <p>This one included tackling community problems. <br>
                 my team and I tackled building a website that gave jobs to unemployed youths and short courses too.</p>
-            </div>
-            <div class="line">
-                <span class="line1"></span> <br>
-                <span class="line2"></span> <br>
-                <span class="line3"></span> 
             </div>
         </div>
         <div class="content">
@@ -66,12 +61,7 @@
                 <img src="/images/world travel agencies.jpg" width="50%" >
                 <p>This was an individual project tackling travel agencies and services around the world. <br>
             </div>
-            <div class="line">
-                <span class="line1"></span> <br>
-                <span class="line2"></span> <br>
-                <span class="line3"></span> 
-            </div>
-            <div>
+            <div class="solo">
                 <h3>Below are some links on some work I have.</h3>
                 <ul>
                     <li><a href="https://brianmbugua5693.github.io/home-practice/.">familiarizing with javascript.</a></li>
@@ -79,6 +69,59 @@
                 </ul>
             </div>
         </div>
+    </section>
+
+    <!-- contacts -->
+    <section class="contact" id="contact">
+      <div class="container">
+          <div style="text-align: center;">
+            <h2>Contact Me</h2>
+            <p>Get in touch with me...</p>
+          </div>
+          <div class="row">
+            <div class="column">
+                <div class="icon">
+                    <h3>Address</h3>
+                    <img src="/images/place.png" width="20px">
+                    <p>Kangundo Rd, Chokaa, <br> St.Michaels's</p>
+                </div>
+            </div>
+        </div>
+            <div class="column">
+                <div class="icon">
+                    <h3>Phone</h3>
+                    <img src="/images/call.png" width="20px">
+                    <p>+254745429359</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <h3>Email</h3>
+                    <img src="/images/email.png" width="20px">
+                    <p>bnderitu48@gmail.com</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div>
+          <form action="/action_php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+            <label for="fname">First Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+            <label for="county">County</label>
+            <select name="county" id="county">
+                <option value="nairobi">Naitobi</option>
+                <option value="kisii">Kisii</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="thika">Thika</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Message Me" style="height: 220px;"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+      </div>
+
     </section>
 </body>
 </html>
