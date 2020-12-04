@@ -122,17 +122,58 @@ img{
     color: blanchedalmond;
     font-size: 30px;
 } 
-.serviceBx p{
-    margin-top: 30px;
-    margin-bottom: 30px;
+#work ul li a{
+    line-height: 20px;
+    color: teal;
 }
-.solo{
+/* contact */
+.contact{
+    box-sizing: border-box;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #111;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: #08420a;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+input[type=submit]:hover {
+    background-color: #08460b;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
     float: left;
-    font-family: fantasy;
-}
-.solo h3{
-    float: left;
-}
-.solo ul li{
-    float: left;
-}
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
