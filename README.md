@@ -1,4 +1,5 @@
 # portfolio
-This are Details about me
-#Author
-Brian Mbugua Nderitu
+This portfolio inlude a brief explaination of who Iam.
+Created by :
+Brian Mbugua Nderitu 
+--https://brianmbugua5693.github.io/portfolio/
