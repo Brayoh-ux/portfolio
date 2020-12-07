@@ -5,7 +5,7 @@ Brian Mbugua Nderitu
 
 ## Description
 This is a a portfolio website,
-it includes a brief explanation of who I am my background, skills and education level.
+it includes a brief explanation of who I am, my background, skills and education level.
 There are images and links of some projects I have 
 worked on.
 There is also a contact me page if want to reach out to me.
@@ -17,7 +17,7 @@ There is also a contact me page if want to reach out to me.
 ## Known Bugs
 Images not loading correctly
 ## Technologies Used
-* HTMl to  right code.
+* HTMl to  write code.
 * CSS to style and positioning text and images.
 ## link
 https://brianmbugua5693.github.io/portfolio/
